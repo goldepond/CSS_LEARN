@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid #111;
+            width: 50%;
+            margin: 0 auto;
+            height: auto;
+
+        }
+        .top,.bottom {
+            border: 1px solid #111;
+        }
+
+        .middle {
+            margin: 20px 0px;
+            border: 1px solid #111;
+            box-sizing: border-box;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .middle .right,
+        .middle .left {
+            border: 1px solid #111;
+            box-sizing: border-box;
+            width: 50%;
+        }
+
+        .middle .left {
+            float: left;
+        }
+
+        .middle .right {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="top">
+            <p>탑</p>
+        </div>
+        <div class="middle">
+            <div class="left">
+                <p>중간 패딩 위 아래 20px</p>
+            </div>
+            <div class="right">
+                <p>중간 패딩 위 아래 20px</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>바텀</p>
+        </div>
+    </div>
+</body>
+
+</html>

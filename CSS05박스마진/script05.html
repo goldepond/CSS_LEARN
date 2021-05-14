@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0;}
+        ul, li{
+            list-style: none;
+        }
+        .boxlist{
+            width: 80%;
+            margin: 0 auto;
+            overflow:hidden;
+        }
+        /*  blcok요소에 li를 쌓기 위해 float을 이용
+            단순히 float만 쓰면 부모요소가 자식 요소를 담지 못함
+
+        해결 1. 가상요소 방법 부모에 아레와 같이 넣기
+            .boxlist:after{
+                content:"";
+                display:block;
+                clear:both;
+            }
+
+        해결2. 부모요소에 overflow:hidden을 넣는다.
+        */
+        .boxlist li{
+            float: left;
+            width: 16.6666%;
+            border: 1px solid #777;
+               box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+        <ul class="boxlist">
+            <li><a>박스123</a></li>
+            <li><a>박스123</a></li>
+            <li><a>박스123</a></li>
+            <li><a>박스123</a></li>
+            <li><a>박스123</a></li>
+            <li><a>박스123</a></li>
+        </ul>
+</body>
+</html>
