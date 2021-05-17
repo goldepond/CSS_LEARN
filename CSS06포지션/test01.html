@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .border1 {}
+
+            .border1 {
+                padding: 10px;
+                position: relative;
+                width: 80%;
+                margin: 0 auto;
+
+                border: 1px solid black;
+            }
+
+            .image {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                ;
+            }
+
+            .content textarea {
+                width: 100%;
+                height: 200px;
+                box-sizing: border-box;
+                resize: vertical;
+            }
+
+            .image img {
+                width: 50px;
+            }
+
+            .content,
+            .userID,
+            .title,
+            .write {
+                padding-left: 60px;
+            }
+
+            .userID, .content{
+                overflow: hidden;
+            }
+
+            .left {
+                float: left;
+            }
+            .left>input {
+                display: block;
+                width: 100px;
+            }
+
+            .right {
+                float: right;
+            }
+            .title a,
+            .write a {
+                width: 300%;
+                height: 10px;
+                box-sizing: border-box;
+                resize: vertical;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="border1">
+            <div class="image">
+                <img src="FISH.png">
+            </div>
+            <div class="content">
+                <div>
+                    <textarea>......</textarea>
+                </div>
+            </div>
+            <div class="userID">
+                <div>
+                    <dic class="left">
+
+                        <input type="text">
+                        <input type="text" style="margin-top :3px">
+                    </dic>
+                </div>
+                <div class="right">
+
+                    <button>등록하기</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border1" style="margin-top :3px">
+            <div class="image">
+                <img src="FISH.png">
+            </div>
+            <dic class="content">
+                <div class="left">
+                    <div class="title">
+                        <a>제목</a>
+                    </div>
+                    <dic class="write">
+                        <a>내용</a>
+                    </dic>
+                </div>
+            </dic>
+            <div class="userID">
+                <div class="right">
+                    <button>삭제</button>
+                    <button>수정</button>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>

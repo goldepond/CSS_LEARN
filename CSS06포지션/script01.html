@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                ;
+            }
+
+            .list {
+                margin: 50px;
+                padding: 50px;
+                width: 50%;
+                margin: 0 auto;
+                border: 1px solid black;
+                position: relative;
+            }
+
+            p {
+                height: 100px;
+            }
+
+            .inner1 {
+                background-color: blue;
+            }
+
+            .inner2 {
+
+                width: 50px;
+                height: 50px;
+                background-color: coral;
+                position: absolute;
+                left: 150px;
+                top: 50;
+            }
+
+            .inner3 {
+                background-color: deeppink;
+            }
+
+        </style>
+    </head>
+<!-- 포지션 html 에서 3d형식의 z축방향으로 컨텐츠를 끌어옹ㄹ려서 상자배치
+absolute 부모요소 기반
+relative 현재 위치 기반 positon
+
+포지션 1 규칙
+z축 방향으로 올릴 컨텐츠에 position : absolute, 부모요소 position:relative
+
+포지션 2규칙
+left R top Butom으로 선채ㅔㄱ-->
+    <body>
+        <div class="list">
+            <div>
+                <p class="inner1">1포지션</p>
+                <p class="inner2">2포지션</p>
+                <p class="inner3">3포지션</p>
+            </div>
+        </div>
+    </body>
+
+</html>

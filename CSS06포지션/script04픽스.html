@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            ul,
+            li {
+                list-style: none;
+
+            }
+
+            body {
+                height: 20000px;
+            }
+
+            header {
+                position: fixed;
+                width: 100%;
+                left: 0px;
+                top: 0px;
+                z-index: 50;
+            }
+
+            section {
+                margin-top: 200px;
+            }
+
+            .side {
+                text-align: center;
+                position: fixed;
+                right: 0px;
+                z-index: 60;
+                top: 200px;
+            }
+
+            /*========================================  */
+            .logo {
+                text-align: center;
+                background-color: white;
+            }
+
+            .menu {
+                text-align: center;
+                background-color: black;
+            }
+
+            .menu>li {
+                display: inline-block;
+            }
+
+            .menu>li>a {
+                display: block;
+                color: white;
+                text-decoration: none;
+                padding: 20px;
+            }
+
+            .menu>li>a:hover {
+                background-color: white;
+                color: black;
+            }
+
+            .side-list li a {
+                display: block;
+                padding: 20px 20px;
+                background-color: black;
+                text-decoration: none;
+                color: white;
+                font-size: 0.5em;
+                border-top: 1px solid #777;
+                letter-spacing: -1px;
+            }
+
+            section{
+                margin-top: 160px;
+            }
+            .inner1 {background-color: rgb(132, 132, 218); height: 500px}
+            .inner2 {background-color:chocolate;position:  sticky; top: 160px; z-index: 100;}
+            /* 섹션기준으로 스티키는 작동함 섹션이 끝나는 순간 섹션은 작동안함 */
+            .inner3 {background-color:crimson; height: 1500px;}
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="FISH.png">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">메뉴1</a></li>
+                    <li><a href="#">메뉴1</a></li>
+                    <li><a href="#">메뉴1</a></li>
+                    <li><a href="#">메뉴1</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <div class="inner1">내용</div>
+            <div class="inner2">스티키</div>
+            <div class="inner3">내용</div>
+        </section>
+        <aside class="side">
+            <ul class="side-list">
+                <li><a href="#">
+                        <p>카톡</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>카톡</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>카톡</p>
+                    </a></li>
+            </ul>
+        </aside>
+    </body>
+
+</html>
