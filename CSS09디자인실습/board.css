@@ -1,0 +1,28 @@
+ .prod-color>ul{
+   overflow: hidden;
+}
+
+.prod_color>ul>li{
+    width: 50px;
+    float: left;
+}
+
+.prod-content{
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.prod-content>.info{
+    float: left;
+}
+.prod-content>.price{
+    float: right;
+}
+
+.prod-content>.info> span{
+    display: block;
+}
+
+.prod-img>img{
+    width: 100%;
+}
