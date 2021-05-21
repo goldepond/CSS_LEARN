@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+/* ==================================== */
+
+.content_box{
+   
+}
+.product > .product_title ,
+.product > .product_price ,
+.buy > .product_fullprice
+{
+    font-size: 24px;
+}
+
+
+
+.product_price{
+
+}
+
+.product_detail{
+    margin-bottom: 130px;
+}
+
+/* =============================================== */
+.buy{
+    overflow: hidden;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.produnt_buy_button{
+    
+    text-align: center;
+    clear: both;
+}
+.produnt_buy_button>btn{
+    box-sizing: border-box;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn-default:hover{
+    color: rgb(0, 0, 0);
+    background-color: #a1a2a3;
+    border-color: #5e656b;
+}
+
+
+.content_box123{
+    padding: 10px;
+    padding-left: 90px;
+    overflow: hidden;
+}
+
+.col{
+    padding:  10px;
+    background-color: lightgray;
+    overflow: hidden;
+
+}
+.image_box123 {
+    position: relative;
+    top:10px;
+    left:10px;
+
+}
+.image_box123 img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+.content_box123 >.text_area .form-control{
+    resize: vertical;
+    
+    min-height: 150px;
+
+}
+
+.form-control{
+border-radius: 0px;
+}
+.btn{
+border-radius: 0px;
+}
+
+section{
+    margin-top: 10px;
+}
+
+
+input .form-control{
+    width: 150px;
+}
+
+.text_area{
+    
+    margin-bottom: 10px;
+}
+
+.content_box123 .textarea{
+    height: 80px;
+}
+
+.content_box123.textarea :focus{
+    height: 150px;
+}
