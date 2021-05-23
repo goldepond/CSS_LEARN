@@ -72,7 +72,6 @@ hr{
     padding:  10px;
     background-color: lightgray;
     overflow: hidden;
-
 }
 .image_box123 {
     position: relative;
@@ -87,7 +86,6 @@ hr{
 }
 .content_box123 >.text_area .form-control{
     resize: vertical;
-    
     min-height: 150px;
 
 }
