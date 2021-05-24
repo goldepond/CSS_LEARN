@@ -1,0 +1,21 @@
+.tabs-basic>li{
+    width: 25%;
+    text-align: center;
+}
+
+.tabs-basic>li>a{
+    color: coral;
+}
+
+
+.m-control .m-title{
+    vertical-align: middle;
+    /* 기준이되는애 기준으로 미드로 정렬 */
+    width: 200px;
+    background-color: hotpink;
+}
+
+.m-control .form-control{
+    width: 200px;
+
+}

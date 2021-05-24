@@ -1,0 +1,55 @@
+ @media(max-width: 767px)
+ {
+      .aside-facebook{display: none;}
+ }
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.left{float: left;}
+.right{float: right;}
+/* ================================================= */
+
+.main-writebox {
+    overflow: hidden;
+}
+
+.aside-facebook{
+    overflow: hidden;
+}
+.aside-imgBox img{vertical-align: middle;}
+.aside-imgBox p{ color: hotpink; float: left;}
+.aside-content, .main-contentBox { clear: both;}
+/* ================================================= */
+.user-img{
+    overflow: hidden;
+}
+.user-img, .iconBox p{ float: left; margin: 10px;}
+.user-write { margin: 10px;}
+
+.user-content, .icongood{clear: both;}
+.reply-content textarea:focus {height: 150px;}
+.content{
+    border-left: 1px solid black;
+    border-right:  1px solid black;
+}
+.icongood{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}.icongood a{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.main-writebox .form-control{
+    resize: vertical;
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+
+.main-writebox textarea:focus {
+    height: 150px;
+}

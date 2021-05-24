@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="../bootstrap/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../bootstrap/bootstrap/css/bootstrap-theme.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style05.css">
+        <link rel="stylesheet" href="tab.css">
+    </head>
+
+    <body>
+        <section>
+            <dic class="container">
+                <dic class="row">
+                    <div class="title">가나다</div>
+                    <div class="col-xs-12 tabs-basic">
+<!-- =============================================== -->
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#home">내 정보관리</a></li>
+                            <li><a data-toggle="tab" href="#menu1">글 관리</a></li>
+                            <li><a data-toggle="tab" href="#menu2">이용내역</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <h3>HOME</h3>
+                                <form>
+                                    <table class="table">
+                                        <!-- 부트스트랩 반응형 테이블 -->
+                                        <thead>t헤드</thead>
+                                        <tbody class="m-control">
+                                            <tr>
+                                                <td class="m-title">id</td>
+                                                <td>
+                                                    <input type="text" class="form-control">
+                                                </td>  
+                                            </tr>
+
+                                            <tr>
+                                                <td class="m-title">이름</td>
+                                                <td>
+                                                    <input type="text" class="form-control">
+                                                </td>  
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <h3>Menu 1</h3>
+                                <p>Some content in menu 1.</p>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                                <h3>Menu 2</h3>
+                                <p>Some content in menu 2.</p>
+                            </div>
+                        </div>
+<!-- ========================================================== -->
+                    </div>
+                </dic>
+            </dic>
+        </section>
+    </body>
+
+</html>

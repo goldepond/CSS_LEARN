@@ -23,36 +23,30 @@
 /* ================================================= */
 .imagebox{
     position: relative;
-    border: 1px solid black;
 }
 .allBox{
     text-align: center;
     margin: 0 auto;
     width: 80%;
-    box-shadow: 0px 8px 16px rgb(0 0 0 / 15%);
-    border: 1px solid black;
     overflow: hidden;
     padding: 50px;
     margin: 50px;
 }
 .contentBox {
+    box-shadow: 0px 8px 16px rgb(0 0 0 / 15%);
     padding: 50px;
     margin: 0 auto;
     text-align: center;
 }
 .allBox .idBox{
     padding: 10px;
-    border: 1px solid black;
 }
 .allBox .psBox{
     padding: 10px;
-    border: 1px solid black;
 }
 .allBox .idPorm{
     padding: 10px;
-    border: 1px solid black;
 }
 .allBox .psPorm{
     padding: 10px;
-    border: 1px solid black;
 }
